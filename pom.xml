@@ -68,7 +68,7 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-	<distributionManagement>
+	<!--<distributionManagement>
 		<repository>
 			<id>nexus</id>
 			<url>http://nexus:8081/content/repositories/releases</url>
@@ -77,7 +77,7 @@
 			<id>nexus</id>
 			<url>http://nexus:8081/content/repositories/snapshots</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -326,7 +326,7 @@
 		</profile>
 		<profile>
 			<id>nexus3</id>
-			<distributionManagement>
+			<!--<distributionManagement>
 				<repository>
 					<id>nexus3</id>
 					<name>Releases</name>
@@ -337,7 +337,7 @@
 					<name>Snapshot</name>
 					<url>http://nexus:8081/repository/maven-snapshots</url>
 				</snapshotRepository>
-			</distributionManagement>
+			</distributionManagement>-->
 		</profile>
 		<profile>
 			<id>openshift</id>
